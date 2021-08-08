@@ -1,0 +1,156 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+	background-image: url(images/background/logo3.jpg);
+	background-size: cover;
+	font-family: 'Times New Roman', Times, serif;
+
+
+	
+}
+
+/*Jumbotron*/
+.jumbotron {
+	background-image: url(images/background/bg5.jpg);
+	background-size: cover;
+	height: 350px;
+	width: 100%;
+	color: black;
+}
+
+.jumbotron .display-4 {
+	margin-top: 10px;
+	color:orangered;
+}
+
+.jumbotron p {
+	font-size: 23px;
+	color:whitesmoke;
+}
+
+.jumbotron hr {
+	border-color: blanchedalmond;
+	width: 400px;
+	border-width: 3px;
+}
+/*Akhir Jumbotron*/
+
+/*Navbar*/
+.navbar {
+	margin-top: -32px;
+	
+}
+.bg-dark {
+    background-color: #f88a8a23!important;
+}
+.navbar {
+    background-color: #f88a8a23!important;
+}
+.bg-white {
+    background-color: transparent!important;
+}
+.typewriter h4 {
+	overflow: hidden; 
+	border-right: .20em solid orange; 
+	white-space: nowrap; 
+	margin: 0 auto;
+	letter-spacing: .15em; 
+	animation: 
+	  typing 3.5s steps(40, end),
+	  blink-caret .75s step-end infinite;
+	  font-family: Arial, Helvetica, sans-serif;
+	  font-weight: bold;
+  
+	
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+	from { width: 0% }
+	to { width: 50% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+	from, to { border-color: transparent }
+	60% { border-color: orange; }
+  }
+
+.navbar .navbar-nav .nav-link {
+	color: black;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	
+}
+
+.navbar .navbar-nav .nav-link:hover {
+	color: orange;
+}
+
+.navbar .navbar-brand  {
+	font-size: 30px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #f88a8ad8;
+    border-color: #131313;
+    color: black;
+}
+.card-img-overlay {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    bottom: 0px;
+    left: 0;
+    padding: 1.25rem;
+}
+
+.menu{
+	justify-content: center;
+}
+/*Akhir Navbar*/
+
+/*Footer*/
+/* .footer {
+	margin-top: 100px;
+	border-width: 3px;
+	border-color: blanchedalmond;
+} */
+hr {
+    margin-top: -2rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.footer-body {
+	margin-top: -10px;
+	margin-bottom: 50px;
+}
+/*Akhir Footer*/
+
+/*Home*/
+.judul {
+	margin-bottom: 65px;
+}
+
+.card-img:hover {
+	box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.582);	
+}
+
+/*Akhir Home*/
+
+/* -==lokasi==- */
+
+.container2 {
+	margin-left: 600px;
+}
+.map {
+	margin-left: 280px;
+}
+
